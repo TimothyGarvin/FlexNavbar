@@ -1,0 +1,49 @@
+.nav{
+    background-color:#303030;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:80px;
+    width:1000px;
+}
+
+.nav-title{
+    margin:10px;
+    font-weight:lighter;
+}
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:10px;
+    list-style-type:none;
+}
+
+a{
+    color:gray;
+    text-decoration: none;
+    
+}
+a:hover{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+/* Lines 24-32 found using w3Schools */
+
+.btn{
+    background-color:darkcyan;
+    color:whitesmoke;
+    padding-top:5px;
+    padding-bottom:5px;
+    outline:solid 2px black;
+    box-shadow: 3px 3px 5px black;
+}
+/* line 42 blur also found on w3Schools */
+
+.btn:hover{
+    background-color:cyan;
+    color:black;
+}
